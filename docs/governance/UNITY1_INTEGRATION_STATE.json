@@ -1,0 +1,17 @@
+{
+  "canonical_repository_path": "/srv/csjs/repositories/hippogriff-classics-wing-commander",
+  "context_handoff_include_local_record": true,
+  "project_id": "hippogriff-classics-wing-commander",
+  "project_may_mutate_local_record": true,
+  "project_owned_record": true,
+  "record_type": "unity1-project-integration-state",
+  "refresh_policy": {
+    "mode": "on_demand",
+    "refresh_on_routine_export": false
+  },
+  "schema_version": 1,
+  "shared_authority_access": "read_only",
+  "shared_authority_mutation_forbidden": true,
+  "shared_authority_repository": "/srv/csjs/repositories/csjs-workstation",
+  "unity_mode": "unity1"
+}
