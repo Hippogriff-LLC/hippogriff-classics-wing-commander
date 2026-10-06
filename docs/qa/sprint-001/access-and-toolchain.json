@@ -1,0 +1,230 @@
+{
+  "observed_at_utc": "2026-10-06T08:00:13.054349+00:00",
+  "run_id": "agent-20261006T075452Z-hippogriff-classics-wing-commander-codex-a62cbe",
+  "owned_input": {
+    "root_readable": true,
+    "expected_archives": [
+      {
+        "name": "CSJS_Wing_Commander.zip",
+        "found": true,
+        "readable": true,
+        "bytes": 3336305,
+        "sha256": "090439bd76ce988ba86de5f0c83b1c4846602e271edea3beba3f2ced94277265",
+        "zip_crc_check": "PASS"
+      },
+      {
+        "name": "CSJS_wcsecretmissions1.zip",
+        "found": true,
+        "readable": true,
+        "bytes": 753970,
+        "sha256": "366bd8c45c2c4ae52b2f4fe5de49c96e2456769d80c6885322da35b023ab12ec",
+        "zip_crc_check": "PASS"
+      },
+      {
+        "name": "CSJS_wcsecretmissions2.zip",
+        "found": true,
+        "readable": true,
+        "bytes": 909334,
+        "sha256": "c28bf4efe70f010b40f73f8ea3d93fbf322eddfc26bb5d8046fbf7b2c51f103c",
+        "zip_crc_check": "PASS"
+      }
+    ],
+    "status": "PASS",
+    "distribution_inspection_status": "PASS",
+    "distribution_inspection_attempted": true,
+    "integrity_check": "PASS",
+    "inspection_scope": "Static archive manifests, private extraction, member comparisons, DOS MZ headers, and focused interface/version strings. No execution or decompilation.",
+    "private_artifact_relative_path": "sprint-001-completion-20261006"
+  },
+  "private_workspace": {
+    "authorized_path": "/tmp/csjs-classics-private/owned-workspace",
+    "exists": true,
+    "writable": true,
+    "create_read_delete_attempted": true,
+    "marker_created": true,
+    "readback_performed": true,
+    "readback_matches": true,
+    "deletion_performed": true,
+    "marker_absent_after_delete": true,
+    "status": "PASS"
+  },
+  "moo2_snapshot": {
+    "commit_sha": "481bc73ed1e01e203fffdec9c3e9c05e8d430c59",
+    "expected_tree_sha": "5e0c3be8828e0b29d4af5341e5a022b8924927d5",
+    "computed_tree_sha": "5e0c3be8828e0b29d4af5341e5a022b8924927d5",
+    "writable_entries": 0,
+    "root_writable": false,
+    "status": "PASS"
+  },
+  "moo2_private_reference": {
+    "generated_dispatch_readable": true,
+    "executed": false,
+    "copied": false
+  },
+  "toolchain": {
+    "java": {
+      "exit_code": 0,
+      "version": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment (build 17.0.20.1+1-1-24.04-Ubuntu)\nOpenJDK 64-Bit Server VM (build 17.0.20.1+1-1-24.04-Ubuntu, mixed mode, sharing)"
+    },
+    "javac": {
+      "exit_code": 0,
+      "version": "javac 17.0.20.1"
+    },
+    "node": {
+      "exit_code": 0,
+      "version": "v24.19.0"
+    },
+    "npm": {
+      "exit_code": 0,
+      "version": "11.17.0"
+    },
+    "adb": {
+      "exit_code": 0,
+      "version": "Android Debug Bridge version 1.0.41\nVersion 37.0.1-15733141\nInstalled as /opt/csjs/android-sdk/platform-tools/adb\nRunning on Linux 7.0.0-34-generic (x86_64)"
+    },
+    "sdk_packages": {
+      "platforms": [
+        "android-36"
+      ],
+      "build-tools": [
+        "35.0.0",
+        "36.0.0"
+      ],
+      "ndk": [],
+      "cmake": [],
+      "cmdline-tools": [
+        "15859902",
+        "latest"
+      ]
+    },
+    "ndk_bundle_present": false,
+    "path_tools": {
+      "gradle": null,
+      "cmake": null,
+      "ninja": null,
+      "clang": null,
+      "gcc": "/usr/bin/gcc",
+      "make": "/usr/bin/make",
+      "pkg-config": null,
+      "expo": null,
+      "react-native": null
+    },
+    "cached_gradle_version": "8.14.1",
+    "cached_gradle_launcher_present": true,
+    "global_npm_packages_observed": [
+      "corepack@0.35.0",
+      "eas-cli@24.8.0",
+      "npm@11.17.0"
+    ],
+    "native_android_build_attempted": false,
+    "global_tooling_installed_or_changed": false
+  },
+  "prior_projection_observation": {
+    "observed_at_utc": "2026-10-06T00:49:01.762551+00:00",
+    "run_id": "agent-20261006T004217Z-hippogriff-classics-wing-commander-codex-765606",
+    "owned_input": {
+      "root_readable": true,
+      "expected_archives": [
+        {
+          "name": "CSJS_Wing_Commander.zip",
+          "found": false
+        },
+        {
+          "name": "CSJS_wcsecretmissions1.zip",
+          "found": false
+        },
+        {
+          "name": "CSJS_wcsecretmissions2.zip",
+          "found": false
+        }
+      ],
+      "original_source_file_count": 0,
+      "extracted_installation_file_count": 0,
+      "status": "BLOCKED"
+    },
+    "private_workspace": {
+      "exists": true,
+      "writable": false,
+      "status": "BLOCKED"
+    },
+    "mount_observations": [
+      {
+        "role": "owned_input",
+        "mount_options": "ro,nosuid,nodev,relatime"
+      },
+      {
+        "role": "owned_workspace",
+        "mount_options": "ro,nosuid,nodev,relatime"
+      }
+    ]
+  },
+  "prior_research_evidence_run_id": "agent-20261006T004217Z-hippogriff-classics-wing-commander-codex-765606",
+  "completion_scope": "Governed input/workspace verification and bounded static distribution inspection; historical public research, MOO2 investigation, and toolchain observations not repeated.",
+  "required_validator": "PASS",
+  "required_boundary_audit": "PASS",
+  "prior_completion_observation": {
+    "observed_at_utc": "2026-10-06T02:49:53.023096+00:00",
+    "run_id": "agent-20261006T024722Z-hippogriff-classics-wing-commander-codex-00aa81",
+    "owned_input": {
+      "root_readable": true,
+      "expected_archives": [
+        {
+          "name": "CSJS_Wing_Commander.zip",
+          "found": true,
+          "readable": true,
+          "bytes": 3336305,
+          "sha256": "090439bd76ce988ba86de5f0c83b1c4846602e271edea3beba3f2ced94277265",
+          "zip_crc_check": "PASS"
+        },
+        {
+          "name": "CSJS_wcsecretmissions1.zip",
+          "found": true,
+          "readable": true,
+          "bytes": 753970,
+          "sha256": "366bd8c45c2c4ae52b2f4fe5de49c96e2456769d80c6885322da35b023ab12ec",
+          "zip_crc_check": "PASS"
+        },
+        {
+          "name": "CSJS_wcsecretmissions2.zip",
+          "found": true,
+          "readable": true,
+          "bytes": 909334,
+          "sha256": "c28bf4efe70f010b40f73f8ea3d93fbf322eddfc26bb5d8046fbf7b2c51f103c",
+          "zip_crc_check": "PASS"
+        }
+      ],
+      "status": "PASS",
+      "distribution_inspection_status": "PASS",
+      "distribution_inspection_attempted": true,
+      "integrity_check": "PASS",
+      "inspection_scope": "Static archive manifests, private extraction, member comparisons, DOS MZ headers, and focused interface/version strings. No execution or decompilation.",
+      "private_artifact_relative_path": "sprint-001-completion-20261006"
+    },
+    "private_workspace": {
+      "exists": true,
+      "writable": false,
+      "create_read_delete_attempted": true,
+      "marker_created": false,
+      "readback_performed": false,
+      "deletion_performed": false,
+      "error_number": 30,
+      "error": "Read-only file system",
+      "outside_sandbox_retry": "Rejected before execution: approval request failed",
+      "status": "BLOCKED"
+    },
+    "mount_observations": [
+      {
+        "role": "owned_input",
+        "mount_options": "ro,nosuid,nodev,relatime"
+      },
+      {
+        "role": "owned_workspace",
+        "mount_options": "ro,nosuid,nodev,relatime"
+      }
+    ],
+    "completion_scope": "Archive access and workspace probe only; distribution inspection stopped as required by completion contract. MOO2 and toolchain observations retained from prior research, not rerun.",
+    "required_validator": "BLOCKED",
+    "required_boundary_audit": "BLOCKED"
+  },
+  "validation_scope": "Canonical audit scans tracked Git paths; supplemental documentation review covers untracked candidates against directly authorized visible private material. Project-thread promotion review remains required."
+}
